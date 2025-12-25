@@ -1,0 +1,10 @@
+<StaticModelInfo
+    objFile = "Data/Obj/Cube_v.obj"
+    diffuseMap = ""
+    normalMap = ""
+    sgeMap = ""
+    shader = "diffuse"
+    scale = "1"
+    rotation = "0,0,0"
+    reverseTriangle = "false"
+/>

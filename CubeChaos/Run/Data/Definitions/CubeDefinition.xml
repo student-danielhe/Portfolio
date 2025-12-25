@@ -1,0 +1,131 @@
+<Definitions>
+
+  <CubeDefinition name="Dwarf Warrior" mana="25" maxhp="7" hp="7">
+    <Visual sprite = "General1" spriteIndex="1" blockLight="false"/>
+    <Abilities charging = "3" melee = "5,2"/>
+    <AI AiPlacement = "AiWarrior"/>
+    <Text text=""/>
+ </CubeDefinition>
+
+ <CubeDefinition name="Stone" mana="10" maxhp="20" hp="20">
+  <Visual sprite = "Token1" spriteIndex="10" blockLight="true"/>
+    <Abilities/>
+    <AI AiPlacement = "AiDefense&AiStacking"/>
+ </CubeDefinition>
+
+ <CubeDefinition name="Earth" mana="5" maxhp="10" hp="10">
+  <Visual sprite = "Token3" spriteIndex="5" blockLight="true"/>
+    <Abilities burrowed = "true"/>
+    <AI AiPlacement = "AiStacking"/>
+ </CubeDefinition>
+
+ <CubeDefinition name="Leader" mana="2000" maxhp="50" hp="50">
+  <Visual sprite = "Token3" spriteIndex="2" blockLight="false"/>
+    <Abilities leader = "true" melee = "2,2"/>
+    <AI AiPlacement = "AiBackline"/>
+ </CubeDefinition>
+
+ <CubeDefinition name="Excavate" mana="10" maxhp="0" hp="0">
+  <Visual sprite = "Token3" spriteIndex="7" blockLight="false"/>
+    <Abilities/>
+    <AI AiPlacement = "AiEnemySouth"/>
+    <Text text="After this is created deal 5 damage to the cube below."/>
+ </CubeDefinition>
+
+<CubeDefinition name="Tiny Castle" mana="100" maxhp="10" hp="10">
+  <Visual sprite = "General1" spriteIndex="5" blockLight="false"/>
+    <Abilities/>
+    <AI AiPlacement = "AiNorthEmpty&AiBackline"/>
+    <Text text="Every 30 sec create a KNIGHT above."/>
+ </CubeDefinition>
+
+
+
+
+<CubeDefinition name="Knight" mana="15" maxhp="5" hp="5">
+  <Visual sprite = "General2" spriteIndex="21" blockLight="false"/>
+    <Abilities melee = "3,1" charging = "2" climbing = "true"/>
+    <AI AiPlacement = "AiWarrior"/>
+ </CubeDefinition>
+<CubeDefinition name="Giant Fly" mana="10" maxhp="5" hp="5">
+  <Visual sprite = "General2" spriteIndex="0" blockLight="false"/>
+    <Abilities flying = "true"/>
+    <AI AiPlacement = "AiFlying"/>
+ </CubeDefinition>
+
+<CubeDefinition name="Magic Missile" mana="4" maxhp="1" hp="1">
+    <Visual sprite = "General2" spriteIndex="31" blockLight="false"/>
+    <Abilities projectile = "2" charging = ".1" flying = "true" temporary="3"/>
+    <AI AiPlacement = "AiProjectile"/>
+ </CubeDefinition>
+
+<CubeDefinition name="Magic Missile Mage" mana="20" maxhp="4" hp="4">
+    <Visual sprite = "General2" spriteIndex="43" blockLight="false"/>
+    <Abilities/>
+    <AI AiPlacement = "AiNorthEmpty&AiBackline"/>
+    <Text text="Every 5 sec create a MAGIC MISSLE above."/>
+ </CubeDefinition>
+
+<CubeDefinition name="Water" mana="2" maxhp="3" hp="3">
+    <Visual sprite = "Token1" spriteIndex="0" blockLight="true"/>
+    <Abilities liquid = "true" retaliate="1"/>
+    <AI AiPlacement = "AiEnemySouth"/>
+    <Text text="Every 10 sec deal 1 damage to first enemy any distance below this."/>
+ </CubeDefinition>
+
+<CubeDefinition name="Royal Guard" mana="50" maxhp="20" hp="20">
+    <Visual sprite = "General2" spriteIndex="339" blockLight="false"/>
+    <Abilities melee = "3,1"/>
+    <AI AiPlacement = "AiWarrior"/>
+    <Text text="Every 2 sec, if ally leader is damaged, move forward."/>
+ </CubeDefinition>
+
+<CubeDefinition name="Sunflower" mana="20" maxhp="23" hp="23">
+    <Visual sprite = "General2" spriteIndex="261" blockLight="false"/>
+    <Abilities regen = "5"/>
+    <AI AiPlacement = "AiDefense"/>
+    <Text text="Every 30 sec move upwards and create a PLANT STEM below."/>
+ </CubeDefinition>
+
+<CubeDefinition name="Plant Stem" mana="4" maxhp="4" hp="4">
+    <Visual sprite = "Token2" spriteIndex="27" blockLight="false"/>
+    <Abilities regen = "4" growth = "1"/>
+    <AI AiPlacement = "AiDefense"/>
+ </CubeDefinition>
+
+<CubeDefinition name="Bunny" mana="70" maxhp="4" hp="4">
+    <Visual sprite = "General2" spriteIndex="462" blockLight="false"/>
+    <Abilities melee = "3,3" charging = "2"/>
+    <AI AiPlacement = "AiWarrior"/>
+    <Text text="Every 4 sec move upwards.?Every 20 sec create a BUNNY forwards."/>
+ </CubeDefinition>
+
+<CubeDefinition name="Rain Cloud" mana="40" maxhp="5" hp="5">
+    <Visual sprite = "General2" spriteIndex="153" blockLight="false"/>
+    <Abilities flying = "true" temporary = "180"/>
+    <AI AiPlacement = "AiFrontline&AiFlying"/>
+    <Text text="Every 5 sec create neutral WATER below."/>
+ </CubeDefinition>
+
+<CubeDefinition name="Small Warrior Slime" mana="5" maxhp="1" hp="1">
+    <Visual sprite = "General2" spriteIndex="24" blockLight="false"/>
+    <Abilities melee = "1,1" charging = ".5" climbing = "true"/>
+    <AI AiPlacement = "AiWarrior"/>
+ </CubeDefinition>
+
+<CubeDefinition name="Medium Warrior Slime" mana="13" maxhp="4" hp="4">
+  <Visual sprite = "General2" spriteIndex="25" blockLight="false"/>
+    <Abilities melee = "2,1.5" charging = "1"/>
+    <AI AiPlacement = "AiWarrior"/>
+    <Text text="After this dies create SMALL WARRIOR SLIME."/>
+ </CubeDefinition>
+
+<CubeDefinition name="Large Warrior Slime" mana="25" maxhp="5" hp="5">
+  <Visual sprite = "General2" spriteIndex="26" blockLight="false"/>
+    <Abilities melee = "5,3" charging = "1.5"/>
+    <AI AiPlacement = "AiWarrior"/>
+    <Text text="After this dies create MEDIUM WARRIOR SLIME."/>
+ </CubeDefinition>
+
+
+</Definitions>

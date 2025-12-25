@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{b24c8830-2b12-4ab6-b1d4-3cd6bb66e9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{c95ad6bb-4134-4e54-8d89-6707a1c351a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\World">
+      <UniqueIdentifier>{e04561a6-d34e-480f-a421-287e5c177ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\World\Block">
+      <UniqueIdentifier>{94f9d6f2-d4e5-4bcf-8d9d-f3504b579189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Jobs">
+      <UniqueIdentifier>{8b33f9e7-fede-4740-8750-93c996431d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Characters">
+      <UniqueIdentifier>{f5c466d6-af8d-4e99-8f29-5063c42568a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockDefinition.cpp">
+      <Filter>Entity\World\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Entity\World\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Entity\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Entity\World</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateChunkJob.cpp">
+      <Filter>Gameplay\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveChunkJob.cpp">
+      <Filter>Gameplay\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCharacter.cpp">
+      <Filter>Entity\Characters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp" />
+    <ClInclude Include="Player.hpp">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.hpp">
+      <Filter>Entity\World\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockDefinition.hpp">
+      <Filter>Entity\World\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.hpp">
+      <Filter>Entity\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>Entity\World</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateChunkJob.hpp">
+      <Filter>Gameplay\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveChunkJob.hpp">
+      <Filter>Gameplay\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>Entity\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCharacter.hpp">
+      <Filter>Entity\Characters</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\README.txt" />
+  </ItemGroup>
+</Project>

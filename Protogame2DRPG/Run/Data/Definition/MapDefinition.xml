@@ -1,0 +1,12 @@
+<Definitions>
+  <MapDefinition name="TestMap" image="Data/Maps/TestMap.png" size="32,32" >
+    <SpawnInfos>
+    </SpawnInfos>
+  </MapDefinition>
+
+<MapDefinition name="PortalMap" image="Data/Maps/PortalMap.png" size="3,3" >
+    <SpawnInfos>
+    </SpawnInfos>
+  </MapDefinition>
+
+</Definitions>

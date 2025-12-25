@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{b24c8830-2b12-4ab6-b1d4-3cd6bb66e9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map">
+      <UniqueIdentifier>{a9c5e1f5-f0de-494a-8712-6fa076340e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map\Tile">
+      <UniqueIdentifier>{19ecdc95-74d3-4458-882c-b800b6c20bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map\Actor">
+      <UniqueIdentifier>{4c988ccd-5315-46b3-83df-05d7c4ee56ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map\Weapon">
+      <UniqueIdentifier>{4c7bb277-11a2-4eae-b94c-33e056bd73e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map\Controller">
+      <UniqueIdentifier>{eeca704b-e023-4ba9-82e1-23e32b56a214}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Gameplay\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDefinition.cpp">
+      <Filter>Gameplay\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDefinition.cpp">
+      <Filter>Gameplay\Map\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Gameplay\Map\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorHandle.cpp">
+      <Filter>Gameplay\Map\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorDefinition.cpp">
+      <Filter>Gameplay\Map\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponDefinition.cpp">
+      <Filter>Gameplay\Map\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Gameplay\Map\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Gameplay\Map\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AIController.cpp">
+      <Filter>Gameplay\Map\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Gameplay\Map\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MarineAI.cpp">
+      <Filter>Gameplay\Map\Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp" />
+    <ClInclude Include="Map.hpp">
+      <Filter>Gameplay\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDefinition.hpp">
+      <Filter>Gameplay\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>Gameplay\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDefinition.hpp">
+      <Filter>Gameplay\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.hpp">
+      <Filter>Gameplay\Map\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorHandle.hpp">
+      <Filter>Gameplay\Map\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ActorDefinition.hpp">
+      <Filter>Gameplay\Map\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponDefinition.hpp">
+      <Filter>Gameplay\Map\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.hpp">
+      <Filter>Gameplay\Map\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>Gameplay\Map\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AIController.hpp">
+      <Filter>Gameplay\Map\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>Gameplay\Map\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="MarineAI.hpp">
+      <Filter>Gameplay\Map\Controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\README.txt" />
+  </ItemGroup>
+</Project>

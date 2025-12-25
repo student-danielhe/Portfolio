@@ -1,0 +1,61 @@
+<Definitions>
+  <MapDefinition name="TestMap" image="Data/Maps/TestMapGold.png" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8">
+    <SpawnInfos>
+      <SpawnInfo actor="Marine" position="21,22,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="29,22,0.0" orientation="180.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="10,6,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="25,25,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="7,15,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="8,15,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="6,45,0.0" orientation="180.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="8,45,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="35,17,0.0" orientation="180.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="35,21,0.0" orientation="180.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="33,42,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="40,35,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="46.5,27,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="25,40,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="25,34,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="34,30,0.0" orientation="90.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="33,30,0.0" orientation="90.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="25,42,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Marine" position="24,42,0.0" orientation="270.0,0.0,0.0" />
+
+      <SpawnInfo actor="Demon" position="22,5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="25,5,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="2.5,2,0.0" orientation="90.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="3.5,2,0.0" orientation="90.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="5,37,0.0" orientation="90.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="10,37,0.0" orientation="90.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="42,6,0.0" orientation="90.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="45,6,0.0" orientation="180.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="46,33,0.0" orientation="270.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="26,47,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="26,46,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="22,47.5,0.0" orientation="180.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="22,46.5,0.0" orientation="180.0,0.0,0.0" />
+      <SpawnInfo actor="Demon" position="22,45.5,0.0" orientation="180.0,0.0,0.0" />
+      
+      <SpawnInfo actor="Meat" position="35,24,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Meat" position="41,44,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Meat" position="41,43,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Meat" position="42,44,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Meat" position="42,43,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Meat" position="43,44,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="Meat" position="43,43,0.0" orientation="0.0,0.0,0.0" />
+ 
+
+    </SpawnInfos>
+  </MapDefinition>
+  <MapDefinition name="MPMap" image="Data/Maps/MPMap.png" shader="Data/Shaders/Diffuse" spriteSheetTexture="Data/Images/Terrain_8x8.png" spriteSheetCellCount="8,8">
+    <SpawnInfos>
+      <SpawnInfo actor="Demon" faction="Demon" position="15.0,7.0,0.0" />
+      <SpawnInfo actor="Demon" faction="Demon" position="20.0,15.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,1.5,0.0" orientation="0.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="1.5,30.5f,0.0" orientation="315.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="30.5,30.5,0.0" orientation="225.0,0.0,0.0" />
+      <SpawnInfo actor="SpawnPoint" faction="Marine" position="30.5,1.5,0.0" orientation="135.0,0.0,0.0" />
+    </SpawnInfos>
+  </MapDefinition>
+</Definitions>
+

@@ -1,0 +1,18 @@
+Controls
+Mouse  - Aim
+W / A  - Move
+S / D  - Strafe
+Q / E  - Roll
+Z / C  - Elevate
+Shift  - Sprint
+H      - Set Camera to Origin
+1      - Spawn Line
+2      - Spawn Point
+3      - Spawn Wireframe Cylinder
+4      - Spawn Basis
+5      - Spawn Billboarded Text
+6      - Spawn Wireframe Cylinder
+7      - Add Message
+~      - Open Dev Console
+Escape - Exit Game
+Space  - Start Game

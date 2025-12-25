@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{b24c8830-2b12-4ab6-b1d4-3cd6bb66e9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map">
+      <UniqueIdentifier>{422aa5fa-639c-4b3c-a42c-cbb695a6115b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map\Object">
+      <UniqueIdentifier>{15bfe88e-002f-4aab-993c-61785d9eda46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map\Tile">
+      <UniqueIdentifier>{b6937b1e-463e-442b-a4ac-98f1fbeb5cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Map\Object\Interation">
+      <UniqueIdentifier>{af64d3e4-3ea8-43a0-b8eb-90296684d508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\AI">
+      <UniqueIdentifier>{3d5aa032-bc2d-43ef-9245-92af1fcb4951}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Gameplay\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Gameplay\Map\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDefinition.cpp">
+      <Filter>Gameplay\Map\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDefinition.cpp">
+      <Filter>Gameplay\Map\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDefinition.cpp">
+      <Filter>Gameplay\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="StairInteraction.hpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClCompile>
+    <ClCompile Include="StairInteraction.cpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterInteraction.cpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutInteraction.cpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvObstacleInteraction.cpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClCompile>
+    <ClCompile Include="AIPathing.cpp">
+      <Filter>Gameplay\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>Gameplay\AI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp" />
+    <ClInclude Include="Map.hpp">
+      <Filter>Gameplay\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>Gameplay\Map\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDefinition.hpp">
+      <Filter>Gameplay\Map\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDefinition.hpp">
+      <Filter>Gameplay\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>Gameplay\Map\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDefinition.hpp">
+      <Filter>Gameplay\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Interaction.hpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterInteraction.hpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutInteraction.hpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvObstacleInteraction.hpp">
+      <Filter>Gameplay\Map\Object\Interation</Filter>
+    </ClInclude>
+    <ClInclude Include="AIPathing.hpp">
+      <Filter>Gameplay\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.hpp">
+      <Filter>Gameplay\AI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\README.txt" />
+  </ItemGroup>
+</Project>

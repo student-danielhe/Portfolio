@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{b24c8830-2b12-4ab6-b1d4-3cd6bb66e9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Chess">
+      <UniqueIdentifier>{33961dbb-c4db-4834-bf67-e406ea10e695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Camera">
+      <UniqueIdentifier>{dea1f3bb-364e-4612-b8c3-6e241d3f3c0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessPiece.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessPieceDefinition.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessMatch.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessPlayer.cpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Protogame3D\Code\Game\Player.cpp">
+      <Filter>Gameplay\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Protogame3D\Code\Game\Entity.cpp">
+      <Filter>Gameplay\Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp" />
+    <ClInclude Include="ChessBoard.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessPieceDefinition.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessPiece.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessMatch.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessPlayer.hpp">
+      <Filter>Gameplay\Chess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Protogame3D\Code\Game\Player.hpp">
+      <Filter>Gameplay\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Protogame3D\Code\Game\Entity.hpp">
+      <Filter>Gameplay\Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\Run\Data\Shaders\Diffuse.hlsl" />
+  </ItemGroup>
+</Project>

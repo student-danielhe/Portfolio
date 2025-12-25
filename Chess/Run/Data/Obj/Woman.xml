@@ -1,0 +1,10 @@
+<StaticModelInfo
+    objFile = "Data/Obj/Woman.obj"
+    diffuseMap = "Data/Obj/Woman_Diffuse.png"
+    normalMap = "Data/Obj/Woman_Normal.png"
+    sgeMap = ""
+    shader = "diffuse"
+    scale = ".03"
+    rotation = "270,0,90"
+    reverseTriangle = "true"
+/>

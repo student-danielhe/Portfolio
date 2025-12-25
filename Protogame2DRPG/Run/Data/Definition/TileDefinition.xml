@@ -1,0 +1,6 @@
+<Definitions>
+  <TileDefinition name="wall" sprite = "Terrain8X8" spriteIndex="32" color="255,255,255" solid="true"/>
+  <TileDefinition name="floor" sprite = "Terrain8X8" spriteIndex="0" color="0,0,0" solid="false"/>
+  <TileDefinition name="grass" sprite = "Terrain8X8" spriteIndex="4" color="0,0,0" solid="false"/>
+  <TileDefinition name="sand" sprite = "Terrain8X8" spriteIndex="15" color="0,0,0" solid="false"/>
+</Definitions>

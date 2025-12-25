@@ -1,0 +1,9 @@
+<Definitions>
+
+  <ObjectDefinition name="player"sprite = "Actor1" spriteIndex="0" leftIndex="12" rightIndex="24" backIndex="36" layer="1"/>
+  <ObjectDefinition name="stair"sprite = "Dungeon_B" spriteIndex="2"  layer="0"/>
+  <ObjectDefinition name="chest"sprite = "Chest" spriteIndex="0"  layer="1"/>
+  <ObjectDefinition name="monster"sprite = "Monster1" spriteIndex="0" leftIndex="12" rightIndex="24" backIndex="36" layer="1"/>
+<ObjectDefinition name="shortcut"sprite = "Dungeon_A5" spriteIndex="116" leftIndex="124" rightIndex="125" backIndex="117" layer="1"/>
+<ObjectDefinition name="boss"sprite = "Monster1" spriteIndex="54" leftIndex="66" rightIndex="78" backIndex="90" layer="1"/>
+</Definitions>
