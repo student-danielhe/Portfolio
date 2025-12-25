@@ -1,5 +1,6 @@
 This is the collection of all Software Development Project I did in SMU Guildhall.
-All COdes can be found in the code folder.
+All of the projects are made by my custom SMU Guildhall Game Engine
+All Codes can be found in the code folder.
 The program can be opened by running the exe file within the Run folder
 
 As of now it includes:
